@@ -1,0 +1,14 @@
+{
+  "name": "pullbackblock7",
+  "blockId": "US7r-eTPzyN2ipzISWnv1",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/grgshiji/pullbackblock7",
+    "ssh": "git@github.com:grgshiji/pullbackblock7.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
